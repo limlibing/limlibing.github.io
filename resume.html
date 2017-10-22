@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>I want to be a F1 racer.</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Quattrocento+Sans|Sanchez" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<link rel="stylesheet" type="text/css" href="resume.css">
+</head>
+<body>
+
+		<header>
+			<h1>
+			LLB
+			<br>Professional F1 Racer
+			</h1>
+			<br>
+			<br>
+			<br>
+			<img src="images/profile.jpg" width="300" height="170">
+		</header>
+
+
+	<section class="biography">
+		<h1>Driver Biography</h1>
+		<table border="1" align="center">
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Team</th>
+				<th>Country</th>
+			</tr>
+			<tr>
+				<td>Li Bing</td>
+				<td>20</td>
+				<td>Ferrari</td>
+				<td>Singapore</td>
+			</tr>
+
+		</table>
+	</section>
+
+	<section class="hobbies">
+		<h1>Hobbies</h1>
+			<ul>
+				<li>Overtaking everyone on the roads</li>
+				<li>Popping the champagne</li>
+				<li>Listening to music</li>
+			</ul>
+
+	</section>
+		
+
+
+<section class="country">
+	<h1>Countries Competed In</h1>
+
+		<table border="2" align="center">
+			<tr>
+				<th>Country</th>
+				<th>Position</th>
+				<th>Points</th>
+				<th>Year</th>
+			</tr>
+			<tr>
+				<td><img src="images/sgflag.png">
+					<br>Singapore</td>
+				<td>1st</td>
+				<td>100</td>
+				<td>2017</td>
+			</tr>
+			<tr>
+				<td><img src="images/japanflag.png">
+					<br>Japan</td>
+				<td>5th</td>
+				<td>50</td>
+				<td>2015</td>
+			</tr>
+			<tr>
+				<td><img src="images/spainflag.png">
+					<br>Spain</td>
+				<td>Disqualified</td>
+				<td>-</td>
+				<td>2016</td>
+			</tr>
+
+</table>
+</section>
+
+<section class="fanclub">
+
+<div id="fanclub" class="hidden">
+	<form>
+		<h2>Join my Fan Club to receive the latest updates!</h2>
+		First Name: <input type="text" name="firstname" placeholder="First Name" required>
+		Last Name: <input type="text" name="lastname" placeholder="Last Name" required>
+		<br>
+		Email: <input type="email" name="email" placeholder="Email" required>
+		Birthdate: <input type="date" name="birthdate" required>
+		<br>
+		Male <input type="radio" name="gender">
+		Female <input type="radio" name="gender" required>
+		<br>
+		<input type="checkbox" name="tandc" required>I agree to all the terms and conditions.
+		<br>
+		<input type="submit" name="submit" value="JOIN NOW!">
+
+	</form>
+</div>
+</section>
+
+
+
+	<button id="comment" align="center">Click here to join my fan club
+	</button>
+<br>
+<br>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+
+<script>
+	$(document).ready(function(){
+		$("#comment").click(function(){
+				$("#fanclub").removeClass('hidden');
+		})
+	})
+</script>
+
+
+</body>
+</html>
+
